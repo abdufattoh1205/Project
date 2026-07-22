@@ -1,5 +1,9 @@
+
+
 const Candidate = () => {
-  return <div className="p-6 text-xl font-semibold">Candidate Page</div>
+    return(
+        <h1 className="text-2xl font-bold">This is Candidate page</h1>  
+    )
 }
 
 export default Candidate

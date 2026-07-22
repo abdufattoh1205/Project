@@ -1,0 +1,832 @@
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+POST /api/attributes error: 
+Invalid `prisma.attribute.create()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.create()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:47:23
+POST /api/attributes error: 
+Invalid `prisma.attribute.create()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.create()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:47:23
+POST /api/attributes error: 
+Invalid `prisma.attribute.create()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.create()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:47:23
+POST /api/attributes error: 
+Invalid `prisma.attribute.create()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.create()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:47:23
+POST /api/attributes error: 
+Invalid `prisma.attribute.create()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.create()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:47:23
+POST /api/attributes error: 
+Invalid `prisma.attribute.create()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.create()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:47:23
+POST /api/attributes error: 
+Invalid `prisma.attribute.create()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.create()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:47:23
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+POST /api/attributes error: 
+Invalid `prisma.attribute.create()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.create()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:47:23
+POST /api/attributes error: 
+Invalid `prisma.attribute.create()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.create()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:47:23
+POST /api/attributes error: 
+Invalid `prisma.attribute.create()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.create()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:47:23
+POST /api/attributes error: 
+Invalid `prisma.attribute.create()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.create()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:47:23
+POST /api/attributes error: 
+Invalid `prisma.attribute.create()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.create()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:47:23
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
+GET /api/attributes error: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+PrismaClientKnownRequestError: 
+Invalid `prisma.attribute.findMany()` invocation:
+
+
+
+    at Jr.handleRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:8286)
+    at Jr.handleAndLogRequestError (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7581)
+    at Jr.request (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async a (D:\For V\Itransition\Project_1\node_modules\@prisma\client\runtime\client.js:99:6862)
+    at async file:///D:/For%20V/Itransition/Project_1/server/routes/attributes.js:25:24
