@@ -1,12 +1,21 @@
 import { useState, useEffect } from "react"
 
+interface Attribute {
+  id: string
+  name: string
+  category: string
+  dataType: string
+  description: string
+  createdAt: string
+}
+
 export default function Recruiter() {
   const [category, setCategory] = useState("")
   const [name, setName] = useState("")
   const [dataType, setDataType] = useState("")
   const [description, setDescription] = useState("")
   const [error, setError] = useState("")
-  const [attributes, setAttributes] = useState([])
+  const [attributes, setAttributes] = useState<Attribute[]>([])
   const [loading, setLoading] = useState(false)
 
   useEffect(() => {
