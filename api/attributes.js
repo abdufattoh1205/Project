@@ -2,34 +2,43 @@ import { Pool } from '@neondatabase/serverless'
 import { PrismaNeon } from '@prisma/adapter-neon'
 import { PrismaClient } from '@prisma/client'
 
-// Use a global variable to cache the Prisma client across serverless invocations
 const global = globalThis
 let prisma = global.prisma
 
 async function initPrisma() {
   if (!prisma) {
-    const connectionString = process.env.DATABASE_URL?.trim()
+    const rawUrl = process.env.DATABASE_URL?.trim()
     
-    if (!connectionString) {
+    if (!rawUrl) {
       throw new Error('DATABASE_URL environment variable is missing or empty')
     }
 
     try {
-      // Initialize Neon Pool with the connection string
-      // We pass it directly to the constructor as a string
-      const pool = new Pool(connectionString)
+      // To avoid the "'in' operator" error, we explicitly parse the connection string
+      // and pass it as an object. This is the most robust way for the PrismaNeon adapter.
+      const url = new URL(rawUrl)
+      const dbConfig = {
+        host: url.hostname,
+        database: url.pathname.substring(1),
+        user: url.username,
+        password: url.password,
+        port: parseInt(url.port) || 5432,
+        ssl: { rejectUnauthorized: false }
+      }
+
+      // Initialize Pool with a config object instead of a raw string
+      const pool = new Pool(dbConfig)
       const adapter = new PrismaNeon(pool)
       prisma = new PrismaClient({ adapter })
       global.prisma = prisma
     } catch (err) {
-      console.error('Failed to initialize Neon Pool:', err)
+      console.error('Failed to initialize Neon Pool with parsed config:', err)
       throw err
     }
   }
   return prisma
 }
 
-// Helper to parse the request body in Vercel serverless functions
 async function getRequestBody(req) {
   return new Promise((resolve, reject) => {
     let body = ''
@@ -87,7 +96,6 @@ export default async function handler(req, res) {
   } catch (error) {
     console.error('Serverless function error:', error)
     
-    // Reset the client if a connection error occurred to force a fresh start on next request
     if (error.message?.includes('connection') || error.message?.includes('host')) {
       global.prisma = null
     }
