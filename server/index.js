@@ -1,4 +1,8 @@
-import "dotenv/config"
+import { config } from 'dotenv'
+import { fileURLToPath } from 'url'
+import { dirname, resolve } from 'path'
+config({ path: resolve(dirname(fileURLToPath(import.meta.url)), '../.env') })
+
 import express from 'express'
 import attributeRoutes from './routes/attributes.js'
 
