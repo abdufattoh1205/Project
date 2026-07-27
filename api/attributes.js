@@ -6,6 +6,9 @@ const globalForPrisma = globalThis
 
 function getPrisma() {
   if (!globalForPrisma.__prisma) {
+    if (!process.env.DATABASE_URL) {
+      throw new Error('DATABASE_URL is not set')
+    }
     const pool = new Pool({ connectionString: process.env.DATABASE_URL })
     const adapter = new PrismaNeon(pool)
     globalForPrisma.__prisma = new PrismaClient({ adapter })
@@ -13,10 +16,27 @@ function getPrisma() {
   return globalForPrisma.__prisma
 }
 
+function parseBody(req) {
+  return new Promise((resolve, reject) => {
+    let body = ''
+    req.on('data', chunk => { body += chunk })
+    req.on('end', () => {
+      try {
+        resolve(body ? JSON.parse(body) : {})
+      } catch (e) {
+        reject(new Error('Invalid JSON body'))
+      }
+    })
+    req.on('error', reject)
+  })
+}
+
 export default async function handler(req, res) {
-  const prisma = getPrisma()
+  res.setHeader('Content-Type', 'application/json')
 
   try {
+    const prisma = getPrisma()
+
     if (req.method === 'GET') {
       const attributes = await prisma.attribute.findMany({
         orderBy: { createdAt: 'desc' }
@@ -25,9 +45,8 @@ export default async function handler(req, res) {
     }
 
     if (req.method === 'POST') {
-      const chunks = []
-      for await (const chunk of req) chunks.push(chunk)
-      const { name, category, dataType, description } = JSON.parse(Buffer.concat(chunks).toString())
+      const body = await parseBody(req)
+      const { name, category, dataType, description } = body
 
       if (!name || !category || !dataType) {
         return res.status(400).json({ error: 'All fields are required' })
@@ -49,10 +68,13 @@ export default async function handler(req, res) {
 
     return res.status(405).json({ error: 'Method not allowed' })
   } catch (error) {
-    console.error(`${req.method} error:`, error)
+    console.error('Handler error:', error)
     if (error.code === 'P2002') {
       return res.status(409).json({ error: 'Attribute name already exists' })
     }
-    return res.status(500).json({ error: 'Internal server error' })
+    return res.status(500).json({
+      error: 'Internal server error',
+      message: error.message
+    })
   }
 }
