@@ -9,7 +9,7 @@ function getPrisma() {
     if (!process.env.DATABASE_URL) {
       throw new Error('DATABASE_URL is not set')
     }
-    const pool = new Pool({ connectionString: process.env.DATABASE_URL })
+    const pool = new Pool(process.env.DATABASE_URL)
     const adapter = new PrismaNeon(pool)
     globalForPrisma.__prisma = new PrismaClient({ adapter })
   }
@@ -72,6 +72,7 @@ export default async function handler(req, res) {
     if (error.code === 'P2002') {
       return res.status(409).json({ error: 'Attribute name already exists' })
     }
+    globalForPrisma.__prisma = null
     return res.status(500).json({
       error: 'Internal server error',
       message: error.message
