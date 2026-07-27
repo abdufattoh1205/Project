@@ -6,12 +6,22 @@ const globalForPrisma = globalThis
 
 function getPrisma() {
   if (!globalForPrisma.__prisma) {
-    if (!process.env.DATABASE_URL) {
-      throw new Error('DATABASE_URL is not set')
+    const url = process.env.DATABASE_URL?.trim()
+    if (!url) {
+      throw new Error('DATABASE_URL is not set or empty')
     }
-    const pool = new Pool(process.env.DATABASE_URL)
-    const adapter = new PrismaNeon(pool)
-    globalForPrisma.__prisma = new PrismaClient({ adapter })
+    
+    // Try both common ways of initializing the Neon Pool
+    try {
+      const pool = new Pool({ connectionString: url })
+      const adapter = new PrismaNeon(pool)
+      globalForPrisma.__prisma = new PrismaClient({ adapter })
+    } catch (e) {
+      console.error('Pool initialization failed with object config, trying direct string...')
+      const pool = new Pool(url)
+      const adapter = new PrismaNeon(pool)
+      globalForPrisma.__prisma = new PrismaClient({ adapter })
+    }
   }
   return globalForPrisma.__prisma
 }
