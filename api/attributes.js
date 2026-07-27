@@ -2,31 +2,35 @@ import { Pool } from '@neondatabase/serverless'
 import { PrismaNeon } from '@prisma/adapter-neon'
 import { PrismaClient } from '@prisma/client'
 
-const globalForPrisma = globalThis
+// Use a global variable to cache the Prisma client across serverless invocations
+const global = globalThis
+let prisma = global.prisma
 
-function getPrisma() {
-  if (!globalForPrisma.__prisma) {
-    const url = process.env.DATABASE_URL?.trim()
-    if (!url) {
-      throw new Error('DATABASE_URL is not set or empty')
-    }
+async function initPrisma() {
+  if (!prisma) {
+    const connectionString = process.env.DATABASE_URL?.trim()
     
-    // Try both common ways of initializing the Neon Pool
+    if (!connectionString) {
+      throw new Error('DATABASE_URL environment variable is missing or empty')
+    }
+
     try {
-      const pool = new Pool({ connectionString: url })
+      // Initialize Neon Pool with the connection string
+      // We pass it directly to the constructor as a string
+      const pool = new Pool(connectionString)
       const adapter = new PrismaNeon(pool)
-      globalForPrisma.__prisma = new PrismaClient({ adapter })
-    } catch (e) {
-      console.error('Pool initialization failed with object config, trying direct string...')
-      const pool = new Pool(url)
-      const adapter = new PrismaNeon(pool)
-      globalForPrisma.__prisma = new PrismaClient({ adapter })
+      prisma = new PrismaClient({ adapter })
+      global.prisma = prisma
+    } catch (err) {
+      console.error('Failed to initialize Neon Pool:', err)
+      throw err
     }
   }
-  return globalForPrisma.__prisma
+  return prisma
 }
 
-function parseBody(req) {
+// Helper to parse the request body in Vercel serverless functions
+async function getRequestBody(req) {
   return new Promise((resolve, reject) => {
     let body = ''
     req.on('data', chunk => { body += chunk })
@@ -45,24 +49,24 @@ export default async function handler(req, res) {
   res.setHeader('Content-Type', 'application/json')
 
   try {
-    const prisma = getPrisma()
+    const prismaClient = await initPrisma()
 
     if (req.method === 'GET') {
-      const attributes = await prisma.attribute.findMany({
+      const attributes = await prismaClient.attribute.findMany({
         orderBy: { createdAt: 'desc' }
       })
       return res.status(200).json(attributes)
     }
 
     if (req.method === 'POST') {
-      const body = await parseBody(req)
+      const body = await getRequestBody(req)
       const { name, category, dataType, description } = body
 
       if (!name || !category || !dataType) {
-        return res.status(400).json({ error: 'All fields are required' })
+        return res.status(400).json({ error: 'All fields are required: name, category, and dataType' })
       }
 
-      const attribute = await prisma.attribute.create({
+      const attribute = await prismaClient.attribute.create({
         data: { name, category, dataType, description }
       })
       return res.status(201).json(attribute)
@@ -70,22 +74,32 @@ export default async function handler(req, res) {
 
     if (req.method === 'DELETE') {
       const id = req.url.split('/api/attributes/')[1]
-      if (!id) return res.status(400).json({ error: 'ID is required' })
+      if (!id) {
+        return res.status(400).json({ error: 'Attribute ID is required in the URL' })
+      }
 
-      await prisma.attribute.delete({ where: { id } })
+      await prismaClient.attribute.delete({ where: { id } })
       return res.status(200).json({ success: true })
     }
 
-    return res.status(405).json({ error: 'Method not allowed' })
+    return res.status(405).json({ error: `Method ${req.method} not allowed` })
+
   } catch (error) {
-    console.error('Handler error:', error)
+    console.error('Serverless function error:', error)
+    
+    // Reset the client if a connection error occurred to force a fresh start on next request
+    if (error.message?.includes('connection') || error.message?.includes('host')) {
+      global.prisma = null
+    }
+
     if (error.code === 'P2002') {
       return res.status(409).json({ error: 'Attribute name already exists' })
     }
-    globalForPrisma.__prisma = null
+
     return res.status(500).json({
       error: 'Internal server error',
-      message: error.message
+      message: error.message,
+      detail: 'Check Vercel logs for more information'
     })
   }
 }
