@@ -1,5 +1,4 @@
-import { Pool } from '@neondatabase/serverless'
-import { PrismaNeon } from '@prisma/adapter-neon'
+import { PrismaNeonHttp } from '@prisma/adapter-neon'
 import { PrismaClient } from '@prisma/client'
 
 const global = globalThis
@@ -7,32 +6,20 @@ let prisma = global.prisma
 
 async function initPrisma() {
   if (!prisma) {
-    const rawUrl = process.env.DATABASE_URL?.trim()
+    const url = process.env.DATABASE_URL?.trim()
     
-    if (!rawUrl) {
+    if (!url) {
       throw new Error('DATABASE_URL environment variable is missing or empty')
     }
 
     try {
-      // To avoid the "'in' operator" error, we explicitly parse the connection string
-      // and pass it as an object. This is the most robust way for the PrismaNeon adapter.
-      const url = new URL(rawUrl)
-      const dbConfig = {
-        host: url.hostname,
-        database: url.pathname.substring(1),
-        user: url.username,
-        password: url.password,
-        port: parseInt(url.port) || 5432,
-        ssl: { rejectUnauthorized: false }
-      }
-
-      // Initialize Pool with a config object instead of a raw string
-      const pool = new Pool(dbConfig)
-      const adapter = new PrismaNeon(pool)
+      // Using the HTTP adapter instead of the TCP Pool.
+      // This is the recommended way for Vercel serverless functions.
+      const adapter = new PrismaNeonHttp(url)
       prisma = new PrismaClient({ adapter })
       global.prisma = prisma
     } catch (err) {
-      console.error('Failed to initialize Neon Pool with parsed config:', err)
+      console.error('Failed to initialize PrismaNeonHttp:', err)
       throw err
     }
   }
